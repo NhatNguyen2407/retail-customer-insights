@@ -4,6 +4,8 @@ I built this project to practise working with transactional data from start to f
 
 The dashboard uses historical data from a UK online retailer. It is a portfolio case study, not a live business report.
 
+**Live dashboard:** https://retail-customer-insights.streamlit.app/
+
 **Tools:** Python, pandas, SQLite, Plotly, Streamlit, pytest
 
 ## Questions I wanted to explore
@@ -103,6 +105,8 @@ These are possible business questions, not evidence that a campaign would improv
 
 ## Deployment
 
-The dashboard can be deployed from `app.py` using [Streamlit Community Cloud](https://streamlit.io/cloud). I use `requirements.txt` to install the dependencies. A public deployment has not been verified yet.
+I deployed the dashboard on [Streamlit Community Cloud](https://streamlit.io/cloud). It is publicly available at [retail-customer-insights.streamlit.app](https://retail-customer-insights.streamlit.app/). The application uses `app.py` and `requirements.txt`.
+
+I confirmed that the public deployment loaded the UCI dataset and displayed the sales overview, customer segments, and data-quality audit. The dashboard supports country/date filters; changing them changes the displayed figures.
 
 See [LICENSE-DATA.md](LICENSE-DATA.md) for dataset attribution.
