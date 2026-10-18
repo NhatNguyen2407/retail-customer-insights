@@ -97,7 +97,7 @@ These are possible business questions, not evidence that a campaign would improv
 
 ## Limitations
 
-- The data comes from 2010–2011 and should not be used to describe today's retail market.
+- The data comes from 2010-2011 and should not be used to describe today's retail market.
 - The first and last months do not necessarily cover complete calendar months.
 - Missing customer IDs limit customer segmentation.
 - Refund adjustments, fulfilment costs, and marketing acquisition data are not available for a full profitability analysis.
